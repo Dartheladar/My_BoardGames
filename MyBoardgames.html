@@ -7,17 +7,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
-    <h1>My Boardgames collection </h1>
-
+    <h1>Boardgame list</h1>
     <div id="BGlist"></div>
-    <script>
-        fetch("My_Boardgames02.json")
-        .then(Response =>Response.json())
-        .then(data => {
-            console.log(data.Boardgame)
-            document.querySelector("#BGlist").innerTest = data.Boardgame
-        })
-            </script>
+    <script type="text/javascript" language="javascript" src="MBG.js"></script> 
       
         
 </body>
